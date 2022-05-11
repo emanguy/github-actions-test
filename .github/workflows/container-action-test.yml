@@ -11,4 +11,3 @@ jobs:
         with:
           args: cat sample.txt
       - run: 'cat sample.txt'
-	
