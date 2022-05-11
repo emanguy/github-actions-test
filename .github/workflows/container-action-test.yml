@@ -2,6 +2,7 @@ name: "Container actions test"
 on: ["push"]
 jobs:
   container-action:
+    runs-on: ubuntu-latest
     container:
       image: node:14.16
     steps:
