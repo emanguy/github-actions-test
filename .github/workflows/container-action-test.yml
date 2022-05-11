@@ -6,9 +6,9 @@ jobs:
       image: node:14.16
     steps:
       - uses: actions/checkout@v3
-      - run: echo "Hello world!" >> sample.txt
+      - run: 'echo "Hello world!" >> sample.txt'
       - uses: ianwalter/pnpm-container@v1.4.0
         with:
           args: cat sample.txt
-      - run: cat sample.txt
+      - run: 'cat sample.txt'
 	
